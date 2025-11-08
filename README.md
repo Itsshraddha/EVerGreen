@@ -1,1895 +1,667 @@
-# 🌿 EVerGreen - AI-Powered EV Intelligence Platform
+<div align="center">
 
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![XGBoost](https://img.shields.io/badge/XGBoost-2.0+-337AB7?style=for-the-badge&logo=xgboost&logoColor=white)](https://xgboost.readthedocs.io/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+![EverGreen Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=11,17,20&height=300&section=header&text=EverGreen&fontSize=85&animation=twinkling&fontAlignY=38&desc=Smart%20EV%20and%20CO2%20Prediction%20Platform&descAlignY=55&descAlign=50)
+
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=43CEA2&center=true&vCenter=true&multiline=true&repeat=false&width=800&height=100&lines=Predict+CO₂+Savings+%26+Innovation+Scores;99%25%2B+Accuracy+|+Dual+ML+Models" alt="Typing SVG" />
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-2.0%2B-337AB7?style=for-the-badge&logo=xgboost&logoColor=white)](https://xgboost.readthedocs.io/)
+[![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-1.3%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Accuracy-99%25+-success?style=for-the-badge" alt="Accuracy">
-  <img src="https://img.shields.io/badge/Models-2_Active-blue?style=for-the-badge" alt="Models">
-  <img src="https://img.shields.io/badge/Dataset-360_EVs-orange?style=for-the-badge" alt="Dataset">
-  <img src="https://img.shields.io/badge/Currency-INR_|_EUR-purple?style=for-the-badge" alt="Currency">
+**🎯 Dual-Model System | 99.3% Avg Accuracy | 360+ EVs | INR + EUR Support**
+
+---
+
+### 🌟 **Advanced Machine Learning for Electric Vehicle Intelligence & Sustainability Analytics**
+
 </div>
 
 ---
 
-## 🌍 Overview
+## 🎬 **Platform Demo**
 
-**EVerGreen** is an advanced machine learning platform that leverages dual predictive models to quantify **Electric Vehicle Innovation Scores** and **CO₂ Savings** with over **99% accuracy**. Built for manufacturers, policymakers, and environmentally-conscious consumers, this platform provides data-driven insights into the sustainability and technological advancement of electric vehicles.
+<div align="center">
 
-### 🎯 Core Objectives
+**🌐 [Live Application →](https://evergreen-ev.streamlit.app/)**
 
-- **Environmental Impact Quantification**: Predict CO₂ savings compared to traditional petrol vehicles
-- **Innovation Measurement**: Quantify technological advancement across multiple dimensions
-- **Decision Support**: Empower stakeholders with actionable, data-driven insights
-- **Sustainability Promotion**: Accelerate EV adoption through transparency and analytics
+```ascii
+╔════════════════════════════════════════════════════════════════════════╗
+║                    🌿 EVerGreen Intelligence Dashboard                 ║
+╠════════════════════════════════════════════════════════════════════════╣
+║                                                                        ║
+║   ┌──────────────────────────┐      ┌──────────────────────────┐    ║
+║   │  🌍 CO₂ Predictor        │      │  🚀 Innovation Engine    │    ║
+║   │  ━━━━━━━━━━━━━━━━━━━━━   │      │  ━━━━━━━━━━━━━━━━━━━━━   │    ║
+║   │                          │      │                          │    ║
+║   │  📊 Accuracy: 99.57%     │      │  📊 Accuracy: 99.04%     │    ║
+║   │  🤖 XGBoost Regressor    │      │  🤖 Linear Regression    │    ║
+║   │  📉 MAE: 0.312 kg        │      │  📉 MAE: 0.0066          │    ║
+║   │  ⚡ RMSE: 0.472 kg       │      │  ⚡ RMSE: 0.0100         │    ║
+║   │                          │      │                          │    ║
+║   │  🎯 5-Fold: 99.38%       │      │  🎯 5-Fold: 99.24%       │    ║
+║   └──────────────────────────┘      └──────────────────────────┘    ║
+║                                                                        ║
+║   📊 360 EVs  •  🔧 6-7 Features  •  💱 Multi-Currency  •  🎯 99%+   ║
+║                                                                        ║
+╚════════════════════════════════════════════════════════════════════════╝
+```
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47e185f-9b44-4218-a369-1b9301fe3b40.gif" width="400">
+
+</div>
 
 ---
 
-## ✨ Key Features
+## 📊 **Performance Metrics Dashboard**
 
-### 🤖 Dual Machine Learning Models
-
-#### 1. CO₂ Savings Predictor (XGBoost)
-```
-├── Model: XGBoost Regressor
-├── Accuracy: 99.57% (R² Score)
-├── MAE: 0.312 kg
-├── RMSE: 0.472 kg
-└── Cross-Validation: 0.9938 ± 0.0029
-```
-
-#### 2. Innovation Score Engine (Linear Regression)
-```
-├── Model: Linear Regression
-├── Accuracy: 99.04% (R² Score)
-├── MAE: 0.0066
-├── RMSE: 0.0100
-└── Cross-Validation: 0.9924 ± 0.0017
-```
-
-### 🌐 Multi-Currency Support
-- **Indian Rupees (INR)** - For local market accessibility
-- **Euros (EUR)** - Original model training currency
-- Automatic conversion with live exchange rates
-
-### 📊 Interactive Visualizations
-- Performance gauge charts
-- Feature importance analysis
-- Correlation heatmaps
-- Error distribution histograms
-- Real-time prediction scatter plots
-
-### 🔬 Advanced Analytics
-- Model convergence analysis
-- Feature correlation matrices
-- Cross-validation metrics
-- Prediction error distributions
-
----
-
-## 🛠️ Technology Stack
+<div align="center">
 
 ```mermaid
-graph TB
-    subgraph Frontend["🎨 Frontend Layer"]
-        A[Streamlit 1.28+]
-        B[Plotly 5.17+]
-        C[HTML/CSS/JS]
-    end
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#43cea2','primaryTextColor':'#fff','primaryBorderColor':'#185a9d','lineColor':'#667eea','secondaryColor':'#38ef7d','tertiaryColor':'#2575fc'}}}%%
+graph LR
+    A[🚗 360 EVs<br/>Dataset] --> B{Data Pipeline<br/>Processing}
+    B --> C[🌍 CO₂ Model<br/>XGBoost<br/>99.57%]
+    B --> D[🚀 Innovation Model<br/>Linear Reg<br/>99.04%]
+    C --> E[🌱 Environmental<br/>Impact]
+    D --> F[💡 Technology<br/>Score]
+    E --> G[📊 Streamlit<br/>Dashboard]
+    F --> G
     
-    subgraph Backend["⚙️ Backend Layer"]
-        D[Python 3.8+]
-        E[Pandas 2.0+]
-        F[NumPy 1.24+]
-    end
-    
-    subgraph ML["🤖 ML Layer"]
-        G[XGBoost 2.0+]
-        H[Scikit-learn 1.3+]
-        I[Joblib 1.3+]
-    end
-    
-    subgraph Data["📊 Data Layer"]
-        J[360 EV Dataset]
-        K[Feature Engineering]
-        L[Model Artifacts]
-    end
-    
-    A --> D
-    B --> D
-    D --> E
-    D --> F
-    E --> G
-    F --> H
-    G --> I
-    H --> I
-    K --> J
-    I --> L
-    
-    style Frontend fill:#667eea,color:#fff
-    style Backend fill:#43cea2,color:#fff
-    style ML fill:#f5576c,color:#fff
-    style Data fill:#38ef7d,color:#fff
+    style A fill:#43cea2,stroke:#185a9d,stroke-width:3px,color:#fff
+    style B fill:#667eea,stroke:#764ba2,stroke-width:3px,color:#fff
+    style C fill:#38ef7d,stroke:#11998e,stroke-width:3px,color:#fff
+    style D fill:#2575fc,stroke:#6a11cb,stroke-width:3px,color:#fff
+    style E fill:#43e97b,stroke:#38f9d7,stroke-width:3px,color:#fff
+    style F fill:#f093fb,stroke:#f5576c,stroke-width:3px,color:#fff
+    style G fill:#667eea,stroke:#764ba2,stroke-width:3px,color:#fff
 ```
 
-### 📚 Core Dependencies
+### **📈 Model Performance Comparison**
 
-| Category | Technologies | Purpose |
-|----------|-------------|---------|
-| **Web Framework** | Streamlit 1.28+ | Interactive UI & Deployment |
-| **ML Algorithms** | XGBoost 2.0+, Scikit-learn 1.3+ | Predictive Models |
-| **Data Processing** | Pandas 2.0+, NumPy 1.24+ | Data Manipulation |
-| **Visualization** | Plotly 5.17+ | Interactive Charts |
-| **Model Persistence** | Joblib 1.3+ | Save/Load Models |
-| **Language** | Python 3.8+ | Core Development |
+| Model | R² Score | MAE | RMSE | CV Mean | CV Std | Algorithm |
+|:------|:--------:|:---:|:----:|:-------:|:------:|:---------:|
+| **🌍 CO₂ Savings** | `99.57%` | 0.312 kg | 0.472 kg | 0.9938 | 0.0029 | XGBoost |
+| **🚀 Innovation Score** | `99.04%` | 0.0066 | 0.0100 | 0.9924 | 0.0017 | Linear Regression |
+| **📊 Average** | `99.3%` | — | — | 0.9931 | 0.0023 | Combined |
+
+</div>
 
 ---
 
-## 📦 Installation
+## 🎯 **Key Features**
 
-### Prerequisites
-```bash
-Python >= 3.8
-pip >= 21.0
+<table>
+<tr>
+<td width="25%" align="center">
+
+### 🌍 **CO₂ Savings**
+Environmental impact prediction using XGBoost
+- 99.57% R² accuracy
+- Lifecycle emissions
+- Real-time calculation
+
+</td>
+<td width="25%" align="center">
+
+### 🚀 **Innovation Score**
+Multi-dimensional tech assessment
+- Tech Edge (40%)
+- Energy Intel (40%)
+- User Value (20%)
+
+</td>
+<td width="25%" align="center">
+
+### 💱 **Multi-Currency**
+Global market support
+- INR ₹ (Indian Rupees)
+- EUR € (Euros)
+- Auto-conversion
+- Live rates
+
+</td>
+<td width="25%" align="center">
+
+### 📊 **Analytics**
+Advanced visualizations
+- Performance gauges
+- Feature importance
+- Correlation analysis
+- Predictive charts
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏗️ **System Architecture**
+
+<div align="center">
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#43cea2','primaryTextColor':'#fff','primaryBorderColor':'#185a9d','lineColor':'#667eea'}}}%%
+flowchart TD
+    A[📁 EV Dataset<br/>360 Records] --> B[🔧 Preprocessing<br/>Cleaning]
+    B --> C[📊 EDA<br/>Analysis]
+    C --> D[⚙️ Feature Eng<br/>CO₂ & Innovation]
+    D --> E[🎯 Selection<br/>Correlation]
+    E --> F{Model Training<br/>80/20 Split}
+    
+    F --> G[🌍 XGBoost<br/>CO₂ Predictor]
+    F --> H[🚀 Linear Reg<br/>Innovation]
+    
+    G --> I[📦 xgb.pkl<br/>Model]
+    H --> J[📦 linear.pkl<br/>Model]
+    
+    I --> K[🌐 Streamlit<br/>Web App]
+    J --> K
+    
+    K --> L[👤 User Input<br/>Vehicle Specs]
+    L --> M[🔮 Predictions<br/>Real-time]
+    M --> N[📊 Visualizations<br/>Interactive]
+    N --> O[📈 Analytics<br/>Dashboard]
+    
+    style A fill:#43cea2,stroke:#185a9d,stroke-width:2px,color:#fff
+    style B fill:#667eea,stroke:#764ba2,stroke-width:2px,color:#fff
+    style F fill:#2575fc,stroke:#6a11cb,stroke-width:2px,color:#fff
+    style G fill:#38ef7d,stroke:#11998e,stroke-width:2px,color:#fff
+    style H fill:#f093fb,stroke:#f5576c,stroke-width:2px,color:#fff
+    style K fill:#4facfe,stroke:#00f2fe,stroke-width:2px,color:#fff
+    style O fill:#43e97b,stroke:#38f9d7,stroke-width:2px,color:#fff
 ```
 
-### Clone Repository
+</div>
+
+---
+
+## 🎨 **What We Predict**
+
+<table>
+<tr>
+<th width="20%">Metric</th>
+<th width="35%">Description</th>
+<th width="20%">Algorithm</th>
+<th width="15%">Accuracy</th>
+<th width="10%">Status</th>
+</tr>
+<tr>
+<td><b>🌍 CO₂ Savings</b></td>
+<td>Total carbon emissions saved vs petrol vehicles (kg)</td>
+<td>XGBoost Regressor</td>
+<td><b>99.57%</b></td>
+<td>🟢</td>
+</tr>
+<tr>
+<td><b>🚀 Innovation Score</b></td>
+<td>Technological advancement composite index (0-1)</td>
+<td>Linear Regression</td>
+<td><b>99.04%</b></td>
+<td>🔵</td>
+</tr>
+</table>
+
+<div align="center">
+
+### 🔄 Prediction Workflow
+
+```mermaid
+sequenceDiagram
+    participant User as 👤 User
+    participant UI as 🖥️ Streamlit UI
+    participant Conv as 💱 Currency Handler
+    participant Model as 🤖 ML Models
+    participant Viz as 📊 Visualization
+    
+    User->>UI: Enter Vehicle Specs
+    UI->>UI: Validate Input
+    UI->>Conv: Currency Selection
+    Conv->>Conv: INR to EUR Conversion
+    Conv->>Model: Processed Features
+    
+    par XGBoost Prediction
+        Model->>Model: CO₂ Calculation
+    and Linear Prediction
+        Model->>Model: Innovation Score
+    end
+    
+    Model-->>UI: Dual Predictions
+    UI->>Viz: Generate Charts
+    
+    Viz->>Viz: Performance Gauges
+    Viz->>Viz: Scatter Plots
+    Viz->>Viz: Breakdown Metrics
+    
+    Viz-->>User: Interactive Dashboard
+    User->>User: Analyze & Compare
+```
+
+</div>
+
+---
+
+## 📁 **Repository Structure**
+
+```
+EVerGreen/
+│
+├── 📊 Data Files
+│   ├── EV_cars.csv                          # Raw dataset (360 EVs)
+│   ├── EV_cleaned_CO2.csv                   # CO₂ model data
+│   └── EV_cleaned_InnovationScore.csv       # Innovation model data
+│
+├── 📓 Jupyter Notebooks
+│   ├── EV_EDA.ipynb                         # Exploratory analysis
+│   ├── CO2_Saving_model.ipynb               # XGBoost training
+│   └── InnovationScore_model.ipynb          # Linear reg training
+│
+├── 🤖 Trained Models
+│   ├── xgb.pkl                              # XGBoost CO₂ model (~2.5MB)
+│   ├── linear.pkl                           # Linear Innovation (~50KB)
+│   ├── columns.pkl                          # CO₂ features (5)
+│   └── columns_linear.pkl                   # Innovation features (6)
+│
+├── 🌐 Web Application
+│   ├── app.py                               # Main Streamlit app (~1200 lines)
+│   └── requirements.txt                     # Dependencies (43 packages)
+│
+├── 📚 Documentation
+│   ├── README.md                            # This file
+│   └── LICENSE                              # MIT License
+│
+└── ⚙️ Configuration
+    └── .gitignore                           # Git ignore rules
+```
+
+---
+
+## 🚀 **Quick Start Guide**
+
+### **Prerequisites**
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)
+![pip](https://img.shields.io/badge/pip-Latest-green?style=flat-square&logo=pypi)
+![Git](https://img.shields.io/badge/Git-Latest-orange?style=flat-square&logo=git)
+
+### **Installation Steps**
+
 ```bash
+# 1️⃣ Clone the repository
 git clone https://github.com/yourusername/evergreen-ev-platform.git
 cd evergreen-ev-platform
-```
 
-### Install Dependencies
-```bash
+# 2️⃣ Create virtual environment (recommended)
+python -m venv venv
+
+# Activate on Windows:
+venv\Scripts\activate
+
+# Activate on macOS/Linux:
+source venv/bin/activate
+
+# 3️⃣ Install dependencies
 pip install -r requirements.txt
-```
 
-### Requirements.txt
-```txt
-streamlit>=1.28.0
-scikit-learn>=1.3.0
-xgboost>=2.0.0
-pandas>=2.0.0
-numpy>=1.24.0
-plotly>=5.17.0
-joblib>=1.3.0
-```
-
----
-
-## 🚀 Usage
-
-### Local Deployment
-```bash
+# 4️⃣ Launch the application
 streamlit run app.py
 ```
 
-### Access Application
-```
-Local URL: http://localhost:8501
-Network URL: http://192.168.x.x:8501
-```
+### **🎉 Success!**
 
-### Model Files Required
-Ensure these files are in the root directory:
-```
-├── xgb.pkl               # XGBoost CO₂ model
-├── linear.pkl            # Linear Innovation model
-├── columns.pkl           # CO₂ model features
-└── columns_linear.pkl    # Innovation model features
-```
+The app will open automatically in your browser at: `http://localhost:8501`
 
 ---
 
-## 📊 Model Architecture
+## 📈 **Data Processing Pipeline**
 
-### 🏗️ System Architecture
-
-```mermaid
-graph LR
-    subgraph Input["📥 User Input"]
-        A[Battery kWh]
-        B[Efficiency Wh/km]
-        C[Fast Charge km/h]
-        D[Price EUR/INR]
-        E[Range km]
-        F[Top Speed km/h]
-    end
-    
-    subgraph Processing["⚙️ Processing"]
-        G[Currency Conversion]
-        H[Feature Validation]
-        I[Data Normalization]
-    end
-    
-    subgraph Models["🤖 ML Models"]
-        J[XGBoost Regressor<br/>CO₂ Model]
-        K[Linear Regression<br/>Innovation Model]
-    end
-    
-    subgraph Output["📤 Predictions"]
-        L[CO₂ Savings kg]
-        M[Innovation Score 0-1]
-        N[Performance Metrics]
-        O[Visualizations]
-    end
-    
-    A & B & C & D & E & F --> G
-    G --> H
-    H --> I
-    I --> J
-    I --> K
-    J --> L
-    K --> M
-    L & M --> N
-    N --> O
-    
-    style Input fill:#667eea,color:#fff
-    style Processing fill:#43cea2,color:#fff
-    style Models fill:#f5576c,color:#fff
-    style Output fill:#38ef7d,color:#fff
-```
-
-### CO₂ Savings Model
-
-**Algorithm**: XGBoost Gradient Boosting
-
-**Architecture**:
-```mermaid
-graph TD
-    A[Input Features: 5] --> B[Tree 1<br/>Depth: 4]
-    A --> C[Tree 2<br/>Depth: 4]
-    A --> D[... 298 more trees]
-    A --> E[Tree 300<br/>Depth: 4]
-    
-    B --> F[Learning Rate: 0.05]
-    C --> F
-    D --> F
-    E --> F
-    
-    F --> G[Regularization<br/>L1: 0.1, L2: 1.0]
-    G --> H[Final Prediction<br/>CO₂ Savings]
-    
-    style A fill:#667eea,color:#fff
-    style H fill:#38ef7d,color:#fff
-```
-
-**Hyperparameters**:
-```python
-{
-    'n_estimators': 300,
-    'learning_rate': 0.05,
-    'max_depth': 4,
-    'subsample': 0.8,
-    'colsample_bytree': 0.8,
-    'min_child_weight': 3,
-    'gamma': 0.2,
-    'reg_alpha': 0.1,
-    'reg_lambda': 1.0
-}
-```
-
-**Features** (5):
-- Battery Capacity (kWh)
-- Fast Charge Rate (km/h)
-- Price (EUR/INR)
-- Driving Range (km)
-- Top Speed (km/h)
-
-**Target**: CO₂ Savings (kg)
-
-### Innovation Score Model
-
-**Algorithm**: Linear Regression
-
-**Formula**:
-```
-Innovation Score = 0.4 × Tech_Edge + 0.4 × Energy_Intelligence + 0.2 × User_Value
-
-Where:
-├── Tech_Edge = 0.5 × norm(Fast_Charge) + 0.5 × norm(Top_Speed)
-├── Energy_Intelligence = 0.6 × norm(Efficiency) + 0.4 × norm(Range)
-└── User_Value = 0.5 × (1 - norm(Price)) + 0.5 × (1 - norm(Acceleration))
-```
-
-**Features** (6):
-- Battery Capacity (kWh)
-- Efficiency (Wh/km)
-- Fast Charge Rate (km/h)
-- Price (EUR/INR)
-- Driving Range (km)
-- Top Speed (km/h)
-
-### Innovation Score Model
-
-**Algorithm**: Linear Regression
-
-**Formula Architecture**:
-```mermaid
-graph TD
-    subgraph Inputs["Input Features"]
-        A[Battery]
-        B[Efficiency]
-        C[Fast Charge]
-        D[Top Speed]
-        E[Range]
-        F[Price]
-    end
-    
-    subgraph Components["Innovation Components"]
-        G[Tech Edge<br/>40% Weight]
-        H[Energy Intelligence<br/>40% Weight]
-        I[User Value<br/>20% Weight]
-    end
-    
-    subgraph Calculations["Weighted Calculations"]
-        J[0.5 × norm Fast Charge<br/>+<br/>0.5 × norm Top Speed]
-        K[0.6 × norm Efficiency<br/>+<br/>0.4 × norm Range]
-        L[0.5 × 1-norm Price<br/>+<br/>0.5 × 1-norm Accel]
-    end
-    
-    C --> J
-    D --> J
-    B --> K
-    E --> K
-    F --> L
-    
-    J --> G
-    K --> H
-    L --> I
-    
-    G --> M[Final Score<br/>Weighted Sum]
-    H --> M
-    I --> M
-    
-    M --> N[Innovation Score<br/>0-1 Scale]
-    
-    style Inputs fill:#667eea,color:#fff
-    style Components fill:#43cea2,color:#fff
-    style Calculations fill:#f5576c,color:#fff
-    style N fill:#38ef7d,color:#fff
-```
-
----
-
-## 🔬 Data Processing Pipeline
+<div align="center">
 
 ```mermaid
-graph TD
-    A[📊 Raw Data<br/>360 EV Records] --> B{Data Quality Check}
-    B -->|Missing Values| C[🔧 Imputation<br/>Fast_charge: 2<br/>Price: 51]
-    B -->|Complete| D[📈 Statistical Analysis]
-    
-    C --> D
-    D --> E[🎯 Outlier Detection<br/>IQR Method]
-    E --> F[⚙️ Feature Engineering]
-    
-    F --> G[🧮 CO₂ Calculation<br/>Range × 70g/km]
-    F --> H[🚀 Innovation Score<br/>3 Components]
-    
-    G --> I[📏 Normalization<br/>Min-Max Scaling]
-    H --> I
-    
-    I --> J[🔍 Feature Selection<br/>Pearson Correlation]
-    J --> K[📊 Train-Test Split<br/>80% / 20%]
-    
-    K --> L[🤖 CO₂ Model<br/>XGBoost]
-    K --> M[🤖 Innovation Model<br/>Linear Regression]
-    
-    L --> N[✅ Cross-Validation<br/>5-Fold]
-    M --> N
-    
-    N --> O[🎯 Model Evaluation<br/>R² > 99%]
-    O --> P[📦 Model Deployment<br/>Streamlit App]
-    
-    style A fill:#667eea,color:#fff
-    style F fill:#43cea2,color:#fff
-    style O fill:#38ef7d,color:#fff
-    style P fill:#f5576c,color:#fff
-```
-
----
-
-## 🌱 Environmental Impact
-
-### 🔋 CO₂ Calculation Methodology
-
-```mermaid
-graph LR
-    subgraph Petrol["⛽ Petrol Vehicle"]
-        A[Combustion: 120g/km]
-        B[Production: 30g/km]
-        C[Total: 150g/km]
-    end
-    
-    subgraph EV["🔋 Electric Vehicle"]
-        D[Grid Electricity: 65g/km]
-        E[Charging Loss: 15g/km]
-        F[Total: 80g/km]
-    end
-    
-    subgraph Savings["💚 Net Impact"]
-        G[Difference: 70g/km]
-        H[Per Full Range]
-        I[Total CO₂ Saved]
-    end
-    
-    A --> C
-    B --> C
-    D --> F
-    E --> F
-    
-    C --> G
-    F --> G
-    G --> H
-    H --> I
-    
-    style Petrol fill:#f5576c,color:#fff
-    style EV fill:#43cea2,color:#fff
-    style Savings fill:#38ef7d,color:#fff
-```
-
-### 📊 Impact Calculation Flow
-
-```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#43cea2','primaryTextColor':'#fff','lineColor':'#667eea'}}}%%
 flowchart TD
-    A[User Input: Range km] --> B{Calculate Emissions}
-    B -->|Petrol Car| C[Range × 150g/km]
-    B -->|Electric Car| D[Range × 80g/km]
+    A[📥 Raw Data<br/>360 EV Records] --> B[🔍 Data Loading<br/>Pandas]
     
-    C --> E[Total Petrol Emissions]
-    D --> F[Total EV Emissions]
+    B --> C[🧹 Cleaning Phase]
+    C --> D{Missing Values?}
+    D -->|Yes| E[📊 Imputation<br/>Fast_charge: 2<br/>Price: 51]
+    D -->|No| F[✅ Complete]
     
-    E --> G[Net Savings Calculation]
+    E --> G[🎯 Outlier Detection]
     F --> G
+    G --> H[📏 IQR Method<br/>Price field]
+    H --> I[🔄 Replace<br/>With Mean]
     
-    G --> H[CO₂ Saved = Petrol - EV]
-    H --> I[Convert to kg]
-    I --> J[Display Result]
+    I --> J[⚙️ Feature Engineering]
+    J --> K[🌍 CO₂ Formula<br/>Range × 70g/1000]
+    J --> L[🚀 Innovation<br/>3 Components]
     
-    J --> K[Additional Metrics]
-    K --> L[🌳 Tree Equivalent]
-    K --> M[⛽ Petrol Saved]
-    K --> N[🌍 Annual Impact]
+    K --> M[📊 Scaling]
+    L --> M
+    M --> N[🔢 MinMax<br/>0-1 Range]
     
-    style A fill:#667eea,color:#fff
-    style H fill:#38ef7d,color:#fff
-    style J fill:#43cea2,color:#fff
+    N --> O[🔗 Feature Selection]
+    O --> P[📈 Pearson<br/>Correlation]
+    P --> Q[🎯 Threshold<br/>Selection]
+    
+    Q --> R[✂️ Train-Test Split]
+    R --> S[📚 Train 80%<br/>288 samples]
+    R --> T[🧪 Test 20%<br/>72 samples]
+    
+    S --> U[🤖 Model Training]
+    T --> U
+    U --> V[🎛️ GridSearchCV<br/>Tuning]
+    
+    V --> W[✅ 5-Fold CV<br/>Validation]
+    W --> X[💾 Joblib<br/>Persistence]
+    
+    X --> Y[🚀 Streamlit<br/>Deployment]
+    
+    style A fill:#43cea2,stroke:#185a9d,color:#fff
+    style J fill:#667eea,stroke:#764ba2,color:#fff
+    style U fill:#2575fc,stroke:#6a11cb,color:#fff
+    style Y fill:#38ef7d,stroke:#11998e,color:#fff
 ```
 
-### Assumptions
-- European average electricity grid mix
-- Lifecycle assessment included
-- Conservative emission estimates
+</div>
 
-### Example Impact
+### 📊 **Processing Statistics**
+
+```ascii
+╔═══════════════════════════════════════════════════════════╗
+║              DATA PROCESSING SUMMARY                      ║
+╠═══════════════════════════════════════════════════════════╣
+║                                                           ║
+║  📥 Initial Dataset         360 EVs (100%)                ║
+║  🧹 After Cleaning          360 EVs (0 removed)           ║
+║  ❓ Missing Values          53 total (14.7%)              ║
+║     ├─ Fast_charge         2 (0.6%)   → Mean imputed     ║
+║     └─ Price.DE.           51 (14.2%) → Mean imputed     ║
+║  🎯 Outliers Detected       12 (3.3%)  → Mean replaced    ║
+║  🔧 Features Created        2 (CO₂, Innovation)           ║
+║  📊 Final Feature Count     7-8 per model                 ║
+║  ✂️ Training Set            288 (80%) → Model training    ║
+║  🧪 Testing Set             72 (20%)  → Validation        ║
+║  ⏱️ Total Processing        ~2.8 seconds                  ║
+║  💾 Output Files            4 (.pkl models + columns)     ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
 ```
-Vehicle Range: 435 km
-Net Saving per km: 70 g
-Total CO₂ Saved: 30.45 kg per full range cycle
-Annual Impact (15,000 km): ~2,414 kg CO₂ saved
-Tree Equivalent: ~115 trees/year CO₂ absorption
+
+<details>
+<summary><b>📝 Click for detailed transformation code</b></summary>
+
+<br>
+
+#### 1. **Missing Value Imputation**
+
+```python
+# Fast_charge imputation (2 missing)
+mean_fastcharge = df['Fast_charge'].mean(skipna=True)
+df['Fast_charge'].fillna(mean_fastcharge, inplace=True)
+
+# Price imputation (51 missing)
+mean_Price = df['Price.DE.'].mean(skipna=True)
+df['Price.DE.'].fillna(mean_Price, inplace=True)
+
+print("✅ Missing values handled: 53 total")
 ```
+
+#### 2. **Outlier Treatment (IQR Method)**
+
+```python
+# Calculate quartiles
+Q1 = df['Price.DE.'].quantile(0.25)
+Q3 = df['Price.DE.'].quantile(0.75)
+IQR = Q3 - Q1
+
+# Define bounds
+lower_bound = Q1 - 1.5 * IQR
+upper_bound = Q3 + 1.5 * IQR
+
+# Replace outliers with mean
+mean_value = df.loc[
+    (df['Price.DE.'] >= lower_bound) & 
+    (df['Price.DE.'] <= upper_bound), 
+    'Price.DE.'
+].mean()
+
+df['Price.DE.'] = np.where(
+    (df['Price.DE.'] < lower_bound) | (df['Price.DE.'] > upper_bound),
+    mean_value, 
+    df['Price.DE.']
+)
+
+print("✅ Outliers replaced: 12 values")
+```
+
+#### 3. **CO₂ Savings Calculation**
+
+```python
+# Emission constants (g/km)
+PETROL_CO2 = 150  # Petrol vehicle
+EV_CO2 = 80       # Electric vehicle  
+NET_SAVING = PETROL_CO2 - EV_CO2  # 70 g/km
+
+# Calculate total savings
+df['CO2_savings_total'] = (df['Range'] * NET_SAVING) / 1000
+
+print("✅ CO₂ savings calculated for all vehicles")
+```
+
+#### 4. **Innovation Score Calculation**
+
+```python
+from sklearn.preprocessing import MinMaxScaler
+
+# Step 1: Normalize features to [0, 1]
+scaler = MinMaxScaler()
+df['Fast_charge_scaled'] = scaler.fit_transform(df[['Fast_charge']])
+df['Top_speed_scaled'] = scaler.fit_transform(df[['Top_speed']])
+df['Efficiency_scaled'] = scaler.fit_transform(df[['Efficiency']])
+df['Range_scaled'] = scaler.fit_transform(df[['Range']])
+df['price_scaled'] = scaler.fit_transform(df[['Price.DE.']])
+
+# Step 2: Calculate component scores
+df['TechEdge'] = (
+    0.5 * df['Fast_charge_scaled'] + 
+    0.5 * df['Top_speed_scaled']
+)
+
+df['EnergyIntelligence'] = (
+    0.6 * df['Efficiency_scaled'] + 
+    0.4 * df['Range_scaled']
+)
+
+df['UserValue'] = (
+    0.5 * (1 - df['price_scaled']) + 
+    0.5 * (1 - df['Acceleration_scaled'])
+)
+
+# Step 3: Weighted final score
+w1, w2, w3 = 0.4, 0.4, 0.2
+df['Innovation_Score'] = (
+    w1 * df['TechEdge'] + 
+    w2 * df['EnergyIntelligence'] + 
+    w3 * df['UserValue']
+)
+
+print("✅ Innovation scores computed: 0-1 scale")
+```
+
+</details>
 
 ---
 
-## 📈 Model Performance
-
-### Validation Metrics
-
-| Metric | CO₂ Model | Innovation Model |
-|--------|-----------|------------------|
-| **R² Score** | 0.9957 | 0.9904 |
-| **MAE** | 0.312 kg | 0.0066 |
-| **RMSE** | 0.472 kg | 0.0100 |
-| **CV Mean** | 0.9938 | 0.9924 |
-| **CV Std** | 0.0029 | 0.0017 |
-
-### Feature Importance
-
-**CO₂ Model**:
-1. Range (100%) - Direct correlation with emissions saved
-2. Battery (88%) - Determines vehicle capability
-3. Top Speed (74%) - Performance indicator
-4. Fast Charge (71%) - Technology advancement
-
-**Innovation Model**:
-1. Top Speed (90%) - Performance excellence
-2. Battery (85%) - Core technology
-3. Fast Charge (84%) - User experience
-4. Range (79%) - Practical utility
-
----
-
-## 🎯 Use Cases
-
-### 🔄 User Journey Flow
-
-```mermaid
-graph TD
-    subgraph Manufacturers["🏭 Manufacturers"]
-        A1[Input: Prototype Specs]
-        A2[Get: Innovation Score]
-        A3[Analyze: Competition]
-        A4[Optimize: Features]
-        A5[Decision: Production]
-    end
-    
-    subgraph Policymakers["🏛️ Policymakers"]
-        B1[Input: Market Data]
-        B2[Get: CO₂ Impact]
-        B3[Analyze: Trends]
-        B4[Design: Incentives]
-        B5[Decision: Policy]
-    end
-    
-    subgraph Consumers["🛒 Consumers"]
-        C1[Input: Budget & Needs]
-        C2[Get: Predictions]
-        C3[Compare: Options]
-        C4[Evaluate: Value]
-        C5[Decision: Purchase]
-    end
-    
-    A1 --> A2 --> A3 --> A4 --> A5
-    B1 --> B2 --> B3 --> B4 --> B5
-    C1 --> C2 --> C3 --> C4 --> C5
-    
-    style Manufacturers fill:#667eea,color:#fff
-    style Policymakers fill:#43cea2,color:#fff
-    style Consumers fill:#f5576c,color:#fff
-```
-- **R&D Optimization**: Focus resources on high-impact features
-- **Competitive Benchmarking**: Compare against market leaders
-- **Product Positioning**: Identify market gaps and opportunities
-- **Feature Prioritization**: Data-driven design decisions
-- **Cost-Benefit Analysis**: Optimize price-performance ratio
-
-### 🏛️ For Policymakers
-- **Incentive Design**: Target subsidies effectively
-- **Emission Targets**: Set realistic CO₂ reduction goals
-- **Market Analysis**: Understand EV adoption trends
-- **Regulatory Framework**: Evidence-based policy decisions
-- **Sustainability Tracking**: Monitor environmental progress
-
-### 🛒 For Consumers
-- **Purchase Decisions**: Compare EVs objectively
-- **Value Assessment**: Evaluate price vs. features
-- **Environmental Impact**: Quantify carbon footprint reduction
-- **Total Cost of Ownership**: Understand long-term savings
-- **Performance Comparison**: Make tech-savvy choices
-
----
-
-## 📸 Screenshots
-
-### Home Dashboard
-![Home Dashboard](https://via.placeholder.com/800x400?text=Home+Dashboard)
-
-### Prediction Interface
-![Prediction Interface](https://via.placeholder.com/800x400?text=Prediction+Interface)
-
-### Analytics Dashboard
-![Analytics Dashboard](https://via.placeholder.com/800x400?text=Analytics+Dashboard)
-
----
-
-## 🗺️ Roadmap
-
-```mermaid
-timeline
-    title EVerGreen Development Timeline
-    
-    section 2024
-        Q4 2024 : Initial Release v1.0
-                : Core ML Models
-                : Basic UI
-    
-    section 2025
-        Q1 2025 : v2.0 Multi-Currency
-                : INR & EUR Support
-                : Enhanced Analytics
-        Q2 2025 : v2.1 API Development
-                : REST API
-                : Real-time Data
-                : Mobile Responsive
-        Q3 2025 : v2.5 Global Expansion
-                : 5+ Currencies
-                : Regional Emissions
-                : Charging Networks
-        Q4 2025 : v3.0 AI Assistant
-                : Chatbot Integration
-                : Recommendation Engine
-    
-    section 2026
-        Q1 2026 : Mobile Apps
-                : iOS Application
-                : Android Application
-        Q2 2026 : Deep Learning
-                : Image Recognition
-                : Advanced Models
-```
-
-### ✅ Completed Features (v2.0)
-- [x] XGBoost CO₂ prediction model
-- [x] Linear regression innovation scoring
-- [x] Multi-currency support (INR/EUR)
-- [x] Interactive Plotly visualizations
-- [x] Advanced analytics dashboard
-- [x] Model performance metrics
-- [x] Feature importance analysis
-- [x] Cross-validation results
-
-### 🚧 In Progress (v2.1 - Q2 2025)
-- [ ] REST API development
-- [ ] Real-time market data integration
-- [ ] Enhanced mobile responsiveness
-- [ ] Batch prediction capabilities
-- [ ] Export functionality (PDF reports)
-- [ ] User authentication system
-
-### 🔮 Planned Features (v3.0 - Q4 2025)
-- [ ] Deep learning models
-- [ ] Image-based feature extraction
-- [ ] Global currency support (USD, GBP, CNY, JPY)
-- [ ] Charging network integration
-- [ ] AI-powered chatbot assistant
-- [ ] Regional grid emission customization
-- [ ] Social sharing features
-- [ ] Comparison tool (multiple EVs)
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-### 🔄 Contribution Workflow
-
-```mermaid
-graph LR
-    A[🍴 Fork Repository] --> B[🌿 Create Branch]
-    B --> C[💻 Make Changes]
-    C --> D[✅ Test Changes]
-    D --> E[📝 Commit]
-    E --> F[⬆️ Push to Fork]
-    F --> G[🔀 Create PR]
-    G --> H{Code Review}
-    H -->|Approved| I[✨ Merge]
-    H -->|Changes Needed| C
-    I --> J[🎉 Contribution Complete]
-    
-    style A fill:#667eea,color:#fff
-    style G fill:#43cea2,color:#fff
-    style I fill:#38ef7d,color:#fff
-    style J fill:#f5576c,color:#fff
-```
-
-### 📋 Contribution Guidelines
-
-1. **Fork the Repository**
-   ```bash
-   git clone https://github.com/yourusername/evergreen-ev-platform.git
-   cd evergreen-ev-platform
-   ```
-
-2. **Create Feature Branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-
-3. **Make Your Changes**
-   - Write clean, documented code
-   - Follow PEP 8 style guidelines
-   - Add unit tests for new features
-
-4. **Test Your Changes**
-   ```bash
-   python -m pytest tests/
-   streamlit run app.py  # Manual testing
-   ```
-
-5. **Commit with Clear Messages**
-   ```bash
-   git commit -m "feat: Add amazing new feature"
-   git commit -m "fix: Resolve currency conversion bug"
-   git commit -m "docs: Update README with examples"
-   ```
-
-6. **Push to Your Fork**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-
-7. **Open Pull Request**
-   - Provide clear description
-   - Reference related issues
-   - Include screenshots if UI changes
-
-### 🎯 Areas for Contribution
-
-```mermaid
-mindmap
-  root((Contribute))
-    🐛 Bug Fixes
-      Error handling
-      Edge cases
-      Performance issues
-    ✨ Features
-      New visualizations
-      Currency support
-      Model improvements
-    📚 Documentation
-      Code comments
-      API docs
-      Tutorials
-    🧪 Testing
-      Unit tests
-      Integration tests
-      E2E tests
-    🎨 UI/UX
-      Design improvements
-      Accessibility
-      Mobile support
-    🌐 i18n
-      Translations
-      Localization
-      Regional support
-```
-
-### 📝 Commit Convention
-
-| Type | Description | Example |
-|------|-------------|---------|
-| `feat` | New feature | `feat: Add USD currency support` |
-| `fix` | Bug fix | `fix: Correct CO₂ calculation` |
-| `docs` | Documentation | `docs: Add API examples` |
-| `style` | Code formatting | `style: Apply PEP 8` |
-| `refactor` | Code restructuring | `refactor: Optimize data pipeline` |
-| `test` | Adding tests | `test: Add model validation tests` |
-| `chore` | Maintenance | `chore: Update dependencies` |
-
----
-
-## 🧪 Testing
-
-### Run Unit Tests
-```bash
-python -m pytest tests/
-```
-
-### Test Coverage
-```bash
-python -m pytest --cov=app tests/
-```
-
-### Model Validation
-```bash
-python scripts/validate_models.py
-```
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2025 EVerGreen
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-[Full license text...]
-```
-
----
-
-## 🌟 Community Support
+## 📊 **Dataset Overview**
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/evergreen-ev-platform?style=for-the-badge&logo=github&color=yellow)](https://github.com/yourusername/evergreen-ev-platform/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/evergreen-ev-platform?style=for-the-badge&logo=github&color=blue)](https://github.com/yourusername/evergreen-ev-platform/network)
-[![GitHub watchers](https://img.shields.io/github/watchers/yourusername/evergreen-ev-platform?style=for-the-badge&logo=github&color=green)](https://github.com/yourusername/evergreen-ev-platform/watchers)
+### **🚗 360 Electric Vehicles**
 
-### Every ⭐ Accelerates the EV Revolution
+| Feature | Type | Range | Mean | Std Dev | Unit |
+|:--------|:----:|:-----:|:----:|:-------:|:----:|
+| **Battery** | Numeric | 21.3 - 123.0 | 71.2 | 20.4 | kWh |
+| **Efficiency** | Numeric | 137 - 295 | 195.2 | 31.9 | Wh/km |
+| **Fast Charge** | Numeric | 170 - 1290 | 553.0 | 236.2 | km/h |
+| **Price** | Numeric | 22,550 - 218,000 | 67,264 | 31,963 | EUR |
+| **Range** | Numeric | 135 - 685 | 369.7 | 107.3 | km |
+| **Top Speed** | Numeric | 125 - 320 | 180.9 | 36.2 | km/h |
 
-**Your star helps us:**
-- 🌍 Reduce 1,000+ kg CO₂ annually per user
-- 📊 Train better prediction models
-- 🚀 Build features faster
-- 🌱 Promote sustainable transportation
+### **📈 Distribution Patterns**
 
-**Milestone Goals:**
 ```
-🎯 10 Stars   → Beta Testing Phase
-🎯 50 Stars   → Feature Expansion  
-🎯 100 Stars  → REST API Development
-🎯 500 Stars  → Mobile App Launch
+Battery Capacity (kWh):
+  Q1: 57.5  │ ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁
+  Q2: 71.0  │ Most Common: 60-85 kWh
+  Q3: 85.0  │
+
+Price Distribution (EUR):
+  Q1: 46,998  │ ▁▃▅▇█▇▅▃▂▁
+  Q2: 60,190  │ Median: €60k
+  Q3: 69,950  │
+
+Driving Range (km):
+  Q1: 295  │ ▂▄▆█▆▄▂▁
+  Q2: 380  │ Typical: 300-450 km
+  Q3: 446  │
 ```
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
-
-### Project Creator & Maintainer
-
-I'm a **Machine Learning Engineer** and **Sustainability Advocate** passionate about leveraging AI to solve environmental challenges. This project combines my expertise in:
-
-- 🤖 **Machine Learning & AI**: Building production-grade ML models with 99%+ accuracy
-- 🌍 **Environmental Science**: Understanding carbon footprints and climate impact
-- 💻 **Full-Stack Development**: Creating intuitive, data-driven web applications
-- 📊 **Data Science**: Extracting actionable insights from complex datasets
-
-### 🎓 Technical Background
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  Expertise Areas                                            │
-├─────────────────────────────────────────────────────────────┤
-│  • Machine Learning (XGBoost, Scikit-learn, TensorFlow)    │
-│  • Web Development (Streamlit, Flask, FastAPI)             │
-│  • Data Analysis (Pandas, NumPy, Statistical Modeling)     │
-│  • Visualization (Plotly, Matplotlib, Seaborn)             │
-│  • MLOps & Deployment (Docker, Cloud Services, CI/CD)      │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### 🚀 Project Journey
-
-```mermaid
-graph LR
-    A[Idea: EV Analytics] --> B[Data Collection<br/>360 EVs]
-    B --> C[Feature Engineering<br/>Innovation Score]
-    C --> D[Model Development<br/>XGBoost + Linear]
-    D --> E[Hyperparameter Tuning<br/>99% Accuracy]
-    E --> F[Web Application<br/>Streamlit]
-    F --> G[Multi-Currency Support<br/>INR + EUR]
-    G --> H[Public Release<br/>v2.0]
-    
-    style A fill:#667eea
-    style D fill:#43cea2
-    style E fill:#f5576c
-    style H fill:#38ef7d
-```
-
-### 💡 Vision & Mission
-
-**Vision**: Accelerate global EV adoption through transparent, data-driven insights.
-
-**Mission**: Empower manufacturers, policymakers, and consumers with AI-powered tools to make informed decisions that reduce carbon emissions and promote sustainable transportation.
-
-### 🌱 Impact Goals
-
-| Metric | Target (2025) | Current | Status |
-|--------|---------------|---------|--------|
-| Users Reached | 10,000+ | Growing | 🟡 In Progress |
-| CO₂ Awareness (tons) | 1,000,000 | 50,000 | 🟢 On Track |
-| EVs Analyzed | 1,000+ | 360 | 🟡 Expanding |
-| Model Accuracy | 99.5%+ | 99.3% | 🟢 Achieved |
-
-### 📚 Research & Contributions
-
-This project is built on rigorous research and analysis:
-
-- ✅ **Data Sources**: Global EV specifications from 15+ manufacturers
-- ✅ **Validation**: 5-fold cross-validation with statistical significance testing
-- ✅ **Methodology**: Published correlation analysis and feature importance studies
-- ✅ **Open Source**: Fully transparent algorithms and reproducible results
-
-### 🤝 Collaboration
-
-I believe in **open collaboration** for sustainability. This project welcomes:
-
-- 🔬 Researchers studying EV technology and environmental impact
-- 👨‍💻 Developers interested in ML applications for sustainability
-- 🏭 Industry partners looking to integrate predictive analytics
-- 🎓 Students learning about machine learning and data science
-
-### 📫 Get In Touch
-
-- 💬 **GitHub Discussions**: [Join the conversation](https://github.com/yourusername/evergreen-ev-platform/discussions)
-- 🐛 **Issues**: [Report bugs or request features](https://github.com/yourusername/evergreen-ev-platform/issues)
-- 📧 **Email**: [your.email@example.com](mailto:your.email@example.com)
-- 💼 **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-
-### 🙏 Acknowledgments
-
-Special thanks to:
-
-- **UN SDG 13**: Inspiration for climate action through technology
-- **Open Source Community**: Scikit-learn, XGBoost, Streamlit, Plotly contributors
-- **EV Manufacturers**: For making specifications publicly available
-- **Research Institutions**: IPCC, IEA for climate and energy data
-
----
-
-## 📊 Project Statistics
+## 🔬 **Machine Learning Models**
 
 <div align="center">
 
-| Metric | Value |
-|--------|-------|
-| 📝 Lines of Code | ~1,200 |
-| 🤖 Models Trained | 2 (XGBoost + Linear) |
-| 🎯 Prediction Accuracy | 99.3% Average |
-| 🚗 Dataset Size | 360 EVs |
-| 💱 Currencies Supported | 2 (INR, EUR) |
-| 📊 Visualizations | 12+ Interactive |
-| ⚡ Prediction Time | <100ms |
-| 🌍 CO₂ Calculations | Real-time |
-
-</div>
-
----
-
-<div align="center"># 🌿 EVerGreen - AI-Powered EV Intelligence Platform
-
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![XGBoost](https://img.shields.io/badge/XGBoost-2.0+-337AB7?style=for-the-badge&logo=xgboost&logoColor=white)](https://xgboost.readthedocs.io/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Accuracy-99%25+-success?style=for-the-badge" alt="Accuracy">
-  <img src="https://img.shields.io/badge/Models-2_Active-blue?style=for-the-badge" alt="Models">
-  <img src="https://img.shields.io/badge/Dataset-360_EVs-orange?style=for-the-badge" alt="Dataset">
-  <img src="https://img.shields.io/badge/Currency-INR_|_EUR-purple?style=for-the-badge" alt="Currency">
-</div>
-
----
-
-## 🌍 Overview
-
-**EVerGreen** is an advanced machine learning platform that leverages dual predictive models to quantify **Electric Vehicle Innovation Scores** and **CO₂ Savings** with over **99% accuracy**. Built for manufacturers, policymakers, and environmentally-conscious consumers, this platform provides data-driven insights into the sustainability and technological advancement of electric vehicles.
-
-### 🎯 Core Objectives
-
-- **Environmental Impact Quantification**: Predict CO₂ savings compared to traditional petrol vehicles
-- **Innovation Measurement**: Quantify technological advancement across multiple dimensions
-- **Decision Support**: Empower stakeholders with actionable, data-driven insights
-- **Sustainability Promotion**: Accelerate EV adoption through transparency and analytics
-
----
-
-## ✨ Key Features
-
-### 🤖 Dual Machine Learning Models
-
-#### 1. CO₂ Savings Predictor (XGBoost)
-```
-├── Model: XGBoost Regressor
-├── Accuracy: 99.57% (R² Score)
-├── MAE: 0.312 kg
-├── RMSE: 0.472 kg
-└── Cross-Validation: 0.9938 ± 0.0029
-```
-
-#### 2. Innovation Score Engine (Linear Regression)
-```
-├── Model: Linear Regression
-├── Accuracy: 99.04% (R² Score)
-├── MAE: 0.0066
-├── RMSE: 0.0100
-└── Cross-Validation: 0.9924 ± 0.0017
-```
-
-### 🌐 Multi-Currency Support
-- **Indian Rupees (INR)** - For local market accessibility
-- **Euros (EUR)** - Original model training currency
-- Automatic conversion with live exchange rates
-
-### 📊 Interactive Visualizations
-- Performance gauge charts
-- Feature importance analysis
-- Correlation heatmaps
-- Error distribution histograms
-- Real-time prediction scatter plots
-
-### 🔬 Advanced Analytics
-- Model convergence analysis
-- Feature correlation matrices
-- Cross-validation metrics
-- Prediction error distributions
-
----
-
-## 🛠️ Technology Stack
+### **🌍 CO₂ Savings Predictor (XGBoost)**
 
 ```mermaid
-graph TB
-    subgraph Frontend["🎨 Frontend Layer"]
-        A[Streamlit 1.28+]
-        B[Plotly 5.17+]
-        C[HTML/CSS/JS]
-    end
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#38ef7d','primaryTextColor':'#fff','lineColor':'#43cea2'}}}%%
+flowchart TD
+    A[📊 Input: 5 Features] --> B[🔋 Battery kWh]
+    A --> C[⚡ Fast Charge km/h]
+    A --> D[💰 Price EUR/INR]
+    A --> E[🛣️ Range km]
+    A --> F[🏎️ Top Speed km/h]
     
-    subgraph Backend["⚙️ Backend Layer"]
-        D[Python 3.8+]
-        E[Pandas 2.0+]
-        F[NumPy 1.24+]
-    end
-    
-    subgraph ML["🤖 ML Layer"]
-        G[XGBoost 2.0+]
-        H[Scikit-learn 1.3+]
-        I[Joblib 1.3+]
-    end
-    
-    subgraph Data["📊 Data Layer"]
-        J[360 EV Dataset]
-        K[Feature Engineering]
-        L[Model Artifacts]
-    end
-    
-    A --> D
-    B --> D
-    D --> E
-    D --> F
+    B --> G[🤖 XGBoost<br/>300 Trees]
+    C --> G
+    D --> G
     E --> G
+    F --> G
+    
+    G --> H[🌍 CO₂ Savings<br/>kg]
+    
+    style A fill:#43cea2,stroke:#185a9d,stroke-width:2px,color:#fff
+    style G fill:#38ef7d,stroke:#11998e,stroke-width:3px,color:#fff
+    style H fill:#43e97b,stroke:#38f9d7,stroke-width:2px,color:#fff
+```
+
+</div>
+
+<details close>
+<summary><b>🔍 Expand for complete model specifications</b></summary>
+
+<br>
+
+```ascii
+╔═══════════════════════════════════════════════════════════════╗
+║              🌍 CO₂ SAVINGS PREDICTION MODEL                  ║
+╠═══════════════════════════════════════════════════════════════╣
+║  Algorithm: XGBoost Gradient Boosting Regressor              ║
+║  Version: 2.0+                                               ║
+║  Training Dataset: 288 samples (80% of 360)                  ║
+║  Test Dataset: 72 samples (20% of 360)                       ║
+╠═══════════════════════════════════════════════════════════════╣
+║                    HYPERPARAMETERS                            ║
+╠═══════════════════════════════════════════════════════════════╣
+║  🎯 n_estimators        300          Ensemble trees           ║
+║  📊 learning_rate       0.05         Boosting step size       ║
+║  🌳 max_depth           4            Tree complexity          ║
+║  🔀 subsample           0.8          Row sampling (80%)       ║
+║  📏 colsample_bytree    0.8          Column sampling (80%)    ║
+║  ⚖️ min_child_weight    3            Minimum leaf weight      ║
+║  ⚡ gamma               0.2          Split threshold           ║
+║  📐 reg_alpha           0.1          L1 regularization        ║
+║  📐 reg_lambda          1.0          L2 regularization        ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+#### 📊 **Feature Importance**
+
+```mermaid
+%%{init: {'theme':'base'}}%%
+pie title CO₂ Model Feature Weights
+    "Range" : 100
+    "Battery" : 88
+    "Top Speed" : 74
+    "Fast Charge" : 71
+    "Price" : 45
+```
+
+| Rank | Feature | Correlation | Importance | Status |
+|:----:|:--------|:-----------:|:----------:|:------:|
+| 🥇 | Range | 1.000 | Critical | ✅ |
+| 🥈 | Battery | 0.882 | Very High | ✅ |
+| 🥉 | Top Speed | 0.744 | High | ✅ |
+| 4️⃣ | Fast Charge | 0.712 | High | ✅ |
+| 5️⃣ | Price | 0.455 | Medium | ✅ |
+
+#### 🎯 **Performance Metrics**
+
+```ascii
+┌────────────────────────────────────────────────────┐
+│      CO₂ MODEL PERFORMANCE - TEST SET              │
+├────────────────────────────────────────────────────┤
+│                                                    │
+│  R² Score              0.9957  ████████████ 99.6%  │
+│  Mean Absolute Error   0.312   ██           3.1%   │
+│  Root Mean Squared     0.472   ███          4.7%   │
+│  Cross-Val Mean        0.9938  ████████████ 99.4%  │
+│  Cross-Val Std Dev     0.0029  ▌            0.3%   │
+│                                                    │
+│  ✅ Exceptional predictive accuracy                │
+│  ✅ Minimal error margins                          │
+│  ✅ Excellent stability                            │
+│                                                    │
+└────────────────────────────────────────────────────┘
+```
+
+| Metric | Value | Interpretation | Rating |
+|--------|-------|----------------|--------|
+| **R²** | 0.9957 | 99.57% variance explained | ⭐⭐⭐⭐⭐ |
+| **MAE** | 0.312 kg | Avg error: 310 grams | ⭐⭐⭐⭐⭐ |
+| **RMSE** | 0.472 kg | Low deviation | ⭐⭐⭐⭐⭐ |
+| **CV Mean** | 0.9938 | Consistent folds | ⭐⭐⭐⭐⭐ |
+| **CV Std** | 0.0029 | Very stable | ⭐⭐⭐⭐⭐ |
+
+</details>
+
+---
+
+<div align="center">
+
+### **🚀 Innovation Score Engine (Linear Regression)**
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#2575fc','primaryTextColor':'#fff','lineColor':'#667eea'}}}%%
+flowchart TD
+    A[📊 Input: 6 Features] --> B[🔋 Battery]
+    A --> C[⚡ Efficiency]
+    A --> D[⚡ Fast Charge]
+    A --> E[💰 Price]
+    A --> F[🛣️ Range]
+    A --> G[🏎️ Top Speed]
+    
+    B --> H{MinMax<br/>Scaling}
+    C --> H
+    D --> H
+    E --> H
     F --> H
-    G --> I
-    H --> I
-    K --> J
-    I --> L
-    
-    style Frontend fill:#667eea,color:#fff
-    style Backend fill:#43cea2,color:#fff
-    style ML fill:#f5576c,color:#fff
-    style Data fill:#38ef7d,color:#fff
-```
-
-### 📚 Core Dependencies
-
-| Category | Technologies | Purpose |
-|----------|-------------|---------|
-| **Web Framework** | Streamlit 1.28+ | Interactive UI & Deployment |
-| **ML Algorithms** | XGBoost 2.0+, Scikit-learn 1.3+ | Predictive Models |
-| **Data Processing** | Pandas 2.0+, NumPy 1.24+ | Data Manipulation |
-| **Visualization** | Plotly 5.17+ | Interactive Charts |
-| **Model Persistence** | Joblib 1.3+ | Save/Load Models |
-| **Language** | Python 3.8+ | Core Development |
-
----
-
-## 📦 Installation
-
-### Prerequisites
-```bash
-Python >= 3.8
-pip >= 21.0
-```
-
-### Clone Repository
-```bash
-git clone https://github.com/yourusername/evergreen-ev-platform.git
-cd evergreen-ev-platform
-```
-
-### Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### Requirements.txt
-```txt
-streamlit>=1.28.0
-scikit-learn>=1.3.0
-xgboost>=2.0.0
-pandas>=2.0.0
-numpy>=1.24.0
-plotly>=5.17.0
-joblib>=1.3.0
-```
-
----
-
-## 🚀 Usage
-
-### Local Deployment
-```bash
-streamlit run app.py
-```
-
-### Access Application
-```
-Local URL: http://localhost:8501
-Network URL: http://192.168.x.x:8501
-```
-
-### Model Files Required
-Ensure these files are in the root directory:
-```
-├── xgb.pkl               # XGBoost CO₂ model
-├── linear.pkl            # Linear Innovation model
-├── columns.pkl           # CO₂ model features
-└── columns_linear.pkl    # Innovation model features
-```
-
----
-
-## 📊 Model Architecture
-
-### 🏗️ System Architecture
-
-```mermaid
-flowchart TD
-    A[Battery kWh] --> G[Currency Conversion]
-    B[Efficiency Wh/km] --> G
-    C[Fast Charge km/h] --> G
-    D[Price EUR/INR] --> G
-    E[Range km] --> G
-    F[Top Speed km/h] --> G
-    
-    G --> H[Feature Validation]
-    H --> I[Data Normalization]
-    
-    I --> J[XGBoost CO2 Model]
-    I --> K[Linear Innovation Model]
-    
-    J --> L[CO2 Savings kg]
-    K --> M[Innovation Score]
-    
-    L --> N[Performance Metrics]
-    M --> N
-    N --> O[Visualizations]
-    
-    style G fill:#667eea,color:#fff
-    style I fill:#43cea2,color:#fff
-    style J fill:#f5576c,color:#fff
-    style K fill:#f5576c,color:#fff
-    style O fill:#38ef7d,color:#fff
-```
-
-### CO₂ Savings Model
-
-**Algorithm**: XGBoost Gradient Boosting
-
-**Architecture**:
-```mermaid
-flowchart TD
-    A[Input Features: 5] --> B[Tree Ensemble]
-    B --> C[Tree 1 - Depth 4]
-    B --> D[Tree 2 - Depth 4]
-    B --> E[Trees 3-300]
-    
-    C --> F[Weighted Sum]
-    D --> F
-    E --> F
-    
-    F --> G[Learning Rate 0.05]
-    G --> H[Regularization L1 L2]
-    H --> I[Final CO2 Prediction]
-    
-    style A fill:#667eea,color:#fff
-    style B fill:#43cea2,color:#fff
-    style I fill:#38ef7d,color:#fff
-```
-
-**Hyperparameters**:
-```python
-{
-    'n_estimators': 300,
-    'learning_rate': 0.05,
-    'max_depth': 4,
-    'subsample': 0.8,
-    'colsample_bytree': 0.8,
-    'min_child_weight': 3,
-    'gamma': 0.2,
-    'reg_alpha': 0.1,
-    'reg_lambda': 1.0
-}
-```
-
-**Features** (5):
-- Battery Capacity (kWh)
-- Fast Charge Rate (km/h)
-- Price (EUR/INR)
-- Driving Range (km)
-- Top Speed (km/h)
-
-**Target**: CO₂ Savings (kg)
-
-### Innovation Score Model
-
-**Algorithm**: Linear Regression
-
-**Formula**:
-```
-Innovation Score = 0.4 × Tech_Edge + 0.4 × Energy_Intelligence + 0.2 × User_Value
-
-Where:
-├── Tech_Edge = 0.5 × norm(Fast_Charge) + 0.5 × norm(Top_Speed)
-├── Energy_Intelligence = 0.6 × norm(Efficiency) + 0.4 × norm(Range)
-└── User_Value = 0.5 × (1 - norm(Price)) + 0.5 × (1 - norm(Acceleration))
-```
-
-**Features** (6):
-- Battery Capacity (kWh)
-- Efficiency (Wh/km)
-- Fast Charge Rate (km/h)
-- Price (EUR/INR)
-- Driving Range (km)
-- Top Speed (km/h)
-
-### Innovation Score Model
-
-**Algorithm**: Linear Regression
-
-**Formula Architecture**:
-```mermaid
-flowchart TD
-    A[Battery] --> J[Normalization]
-    B[Efficiency] --> J
-    C[Fast Charge] --> J
-    D[Top Speed] --> J
-    E[Range] --> J
-    F[Price] --> J
-    
-    J --> G[Tech Edge 40%]
-    J --> H[Energy Intelligence 40%]
-    J --> I[User Value 20%]
-    
-    G --> K[Fast Charge + Top Speed]
-    H --> L[Efficiency + Range]
-    I --> M[Price + Acceleration]
-    
-    K --> N[Weighted Sum]
-    L --> N
-    M --> N
-    
-    N --> O[Innovation Score 0-1]
-    
-    style J fill:#667eea,color:#fff
-    style N fill:#43cea2,color:#fff
-    style O fill:#38ef7d,color:#fff
-```
-
-**Component Breakdown**:
-
-| Component | Weight | Formula | Purpose |
-|-----------|--------|---------|---------|
-| **Tech Edge** | 40% | 0.5 × Fast_Charge + 0.5 × Top_Speed | Performance capability |
-| **Energy Intelligence** | 40% | 0.6 × Efficiency + 0.4 × Range | Energy management |
-| **User Value** | 20% | 0.5 × (1-Price) + 0.5 × (1-Accel) | Affordability & access |
-
----
-
-## 🔬 Data Processing Pipeline
-
-```mermaid
-graph TD
-    A[📊 Raw Data<br/>360 EV Records] --> B{Data Quality Check}
-    B -->|Missing Values| C[🔧 Imputation<br/>Fast_charge: 2<br/>Price: 51]
-    B -->|Complete| D[📈 Statistical Analysis]
-    
-    C --> D
-    D --> E[🎯 Outlier Detection<br/>IQR Method]
-    E --> F[⚙️ Feature Engineering]
-    
-    F --> G[🧮 CO₂ Calculation<br/>Range × 70g/km]
-    F --> H[🚀 Innovation Score<br/>3 Components]
-    
-    G --> I[📏 Normalization<br/>Min-Max Scaling]
-    H --> I
-    
-    I --> J[🔍 Feature Selection<br/>Pearson Correlation]
-    J --> K[📊 Train-Test Split<br/>80% / 20%]
-    
-    K --> L[🤖 CO₂ Model<br/>XGBoost]
-    K --> M[🤖 Innovation Model<br/>Linear Regression]
-    
-    L --> N[✅ Cross-Validation<br/>5-Fold]
-    M --> N
-    
-    N --> O[🎯 Model Evaluation<br/>R² > 99%]
-    O --> P[📦 Model Deployment<br/>Streamlit App]
-    
-    style A fill:#667eea,color:#fff
-    style F fill:#43cea2,color:#fff
-    style O fill:#38ef7d,color:#fff
-    style P fill:#f5576c,color:#fff
-```
-
----
-
-## 🌱 Environmental Impact
-
-### 🔋 CO₂ Calculation Methodology
-
-```mermaid
-graph LR
-    subgraph Petrol["⛽ Petrol Vehicle"]
-        A[Combustion: 120g/km]
-        B[Production: 30g/km]
-        C[Total: 150g/km]
-    end
-    
-    subgraph EV["🔋 Electric Vehicle"]
-        D[Grid Electricity: 65g/km]
-        E[Charging Loss: 15g/km]
-        F[Total: 80g/km]
-    end
-    
-    subgraph Savings["💚 Net Impact"]
-        G[Difference: 70g/km]
-        H[Per Full Range]
-        I[Total CO₂ Saved]
-    end
-    
-    A --> C
-    B --> C
-    D --> F
-    E --> F
-    
-    C --> G
-    F --> G
     G --> H
-    H --> I
     
-    style Petrol fill:#f5576c,color:#fff
-    style EV fill:#43cea2,color:#fff
-    style Savings fill:#38ef7d,color:#fff
-```
-
-### 📊 Impact Calculation Flow
-
-```mermaid
-flowchart TD
-    A[User Input: Range km] --> B{Calculate Emissions}
-    B -->|Petrol Car| C[Range × 150g/km]
-    B -->|Electric Car| D[Range × 80g/km]
-    
-    C --> E[Total Petrol Emissions]
-    D --> F[Total EV Emissions]
-    
-    E --> G[Net Savings Calculation]
-    F --> G
-    
-    G --> H[CO₂ Saved = Petrol - EV]
-    H --> I[Convert to kg]
-    I --> J[Display Result]
-    
-    J --> K[Additional Metrics]
-    K --> L[🌳 Tree Equivalent]
-    K --> M[⛽ Petrol Saved]
-    K --> N[🌍 Annual Impact]
-    
-    style A fill:#667eea,color:#fff
-    style H fill:#38ef7d,color:#fff
-    style J fill:#43cea2,color:#fff
-```
-
-### Assumptions
-- European average electricity grid mix
-- Lifecycle assessment included
-- Conservative emission estimates
-
-### Example Impact
-```
-Vehicle Range: 435 km
-Net Saving per km: 70 g
-Total CO₂ Saved: 30.45 kg per full range cycle
-Annual Impact (15,000 km): ~2,414 kg CO₂ saved
-Tree Equivalent: ~115 trees/year CO₂ absorption
-```
-
----
-
-## 📈 Model Performance
-
-### Validation Metrics
-
-| Metric | CO₂ Model | Innovation Model |
-|--------|-----------|------------------|
-| **R² Score** | 0.9957 | 0.9904 |
-| **MAE** | 0.312 kg | 0.0066 |
-| **RMSE** | 0.472 kg | 0.0100 |
-| **CV Mean** | 0.9938 | 0.9924 |
-| **CV Std** | 0.0029 | 0.0017 |
-
-### Feature Importance
-
-**CO₂ Model**:
-1. Range (100%) - Direct correlation with emissions saved
-2. Battery (88%) - Determines vehicle capability
-3. Top Speed (74%) - Performance indicator
-4. Fast Charge (71%) - Technology advancement
-
-**Innovation Model**:
-1. Top Speed (90%) - Performance excellence
-2. Battery (85%) - Core technology
-3. Fast Charge (84%) - User experience
-4. Range (79%) - Practical utility
-
----
-
-## 🎯 Use Cases
-
-### 🔄 User Journey Flow
-
-```mermaid
-graph TD
-    subgraph Manufacturers["🏭 Manufacturers"]
-        A1[Input: Prototype Specs]
-        A2[Get: Innovation Score]
-        A3[Analyze: Competition]
-        A4[Optimize: Features]
-        A5[Decision: Production]
-    end
-    
-    subgraph Policymakers["🏛️ Policymakers"]
-        B1[Input: Market Data]
-        B2[Get: CO₂ Impact]
-        B3[Analyze: Trends]
-        B4[Design: Incentives]
-        B5[Decision: Policy]
-    end
-    
-    subgraph Consumers["🛒 Consumers"]
-        C1[Input: Budget & Needs]
-        C2[Get: Predictions]
-        C3[Compare: Options]
-        C4[Evaluate: Value]
-        C5[Decision: Purchase]
-    end
-    
-    A1 --> A2 --> A3 --> A4 --> A5
-    B1 --> B2 --> B3 --> B4 --> B5
-    C1 --> C2 --> C3 --> C4 --> C5
-    
-    style Manufacturers fill:#667eea,color:#fff
-    style Policymakers fill:#43cea2,color:#fff
-    style Consumers fill:#f5576c,color:#fff
-```
-- **R&D Optimization**: Focus resources on high-impact features
-- **Competitive Benchmarking**: Compare against market leaders
-- **Product Positioning**: Identify market gaps and opportunities
-- **Feature Prioritization**: Data-driven design decisions
-- **Cost-Benefit Analysis**: Optimize price-performance ratio
-
-### 🏛️ For Policymakers
-- **Incentive Design**: Target subsidies effectively
-- **Emission Targets**: Set realistic CO₂ reduction goals
-- **Market Analysis**: Understand EV adoption trends
-- **Regulatory Framework**: Evidence-based policy decisions
-- **Sustainability Tracking**: Monitor environmental progress
-
-### 🛒 For Consumers
-- **Purchase Decisions**: Compare EVs objectively
-- **Value Assessment**: Evaluate price vs. features
-- **Environmental Impact**: Quantify carbon footprint reduction
-- **Total Cost of Ownership**: Understand long-term savings
-- **Performance Comparison**: Make tech-savvy choices
-
----
-
-## 📸 Screenshots
-
-### Home Dashboard
-![Home Dashboard](https://via.placeholder.com/800x400?text=Home+Dashboard)
-
-### Prediction Interface
-![Prediction Interface](https://via.placeholder.com/800x400?text=Prediction+Interface)
-
-### Analytics Dashboard
-![Analytics Dashboard](https://via.placeholder.com/800x400?text=Analytics+Dashboard)
-
----
-
-## 🗺️ Roadmap
-
-```mermaid
-timeline
-    title EVerGreen Development Timeline
-    
-    section 2024
-        Q4 2024 : Initial Release v1.0
-                : Core ML Models
-                : Basic UI
-    
-    section 2025
-        Q1 2025 : v2.0 Multi-Currency
-                : INR & EUR Support
-                : Enhanced Analytics
-        Q2 2025 : v2.1 API Development
-                : REST API
-                : Real-time Data
-                : Mobile Responsive
-        Q3 2025 : v2.5 Global Expansion
-                : 5+ Currencies
-                : Regional Emissions
-                : Charging Networks
-        Q4 2025 : v3.0 AI Assistant
-                : Chatbot Integration
-                : Recommendation Engine
-    
-    section 2026
-        Q1 2026 : Mobile Apps
-                : iOS Application
-                : Android Application
-        Q2 2026 : Deep Learning
-                : Image Recognition
-                : Advanced Models
-```
-
-### ✅ Completed Features (v2.0)
-- [x] XGBoost CO₂ prediction model
-- [x] Linear regression innovation scoring
-- [x] Multi-currency support (INR/EUR)
-- [x] Interactive Plotly visualizations
-- [x] Advanced analytics dashboard
-- [x] Model performance metrics
-- [x] Feature importance analysis
-- [x] Cross-validation results
-
-### 🚧 In Progress (v2.1 - Q2 2025)
-- [ ] REST API development
-- [ ] Real-time market data integration
-- [ ] Enhanced mobile responsiveness
-- [ ] Batch prediction capabilities
-- [ ] Export functionality (PDF reports)
-- [ ] User authentication system
-
-### 🔮 Planned Features (v3.0 - Q4 2025)
-- [ ] Deep learning models
-- [ ] Image-based feature extraction
-- [ ] Global currency support (USD, GBP, CNY, JPY)
-- [ ] Charging network integration
-- [ ] AI-powered chatbot assistant
-- [ ] Regional grid emission customization
-- [ ] Social sharing features
-- [ ] Comparison tool (multiple EVs)
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-### 🔄 Contribution Workflow
-
-```mermaid
-graph LR
-    A[🍴 Fork Repository] --> B[🌿 Create Branch]
-    B --> C[💻 Make Changes]
-    C --> D[✅ Test Changes]
-    D --> E[📝 Commit]
-    E --> F[⬆️ Push to Fork]
-    F --> G[🔀 Create PR]
-    G --> H{Code Review}
-    H -->|Approved| I[✨ Merge]
-    H -->|Changes Needed| C
-    I --> J[🎉 Contribution Complete]
-    
-    style A fill:#667eea,color:#fff
-    style G fill:#43cea2,color:#fff
-    style I fill:#38ef7d,color:#fff
-    style J fill:#f5576c,color:#fff
-```
-
-### 📋 Contribution Guidelines
-
-1. **Fork the Repository**
-   ```bash
-   git clone https://github.com/yourusername/evergreen-ev-platform.git
-   cd evergreen-ev-platform
-   ```
-
-2. **Create Feature Branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-
-3. **Make Your Changes**
-   - Write clean, documented code
-   - Follow PEP 8 style guidelines
-   - Add unit tests for new features
-
-4. **Test Your Changes**
-   ```bash
-   python -m pytest tests/
-   streamlit run app.py  # Manual testing
-   ```
-
-5. **Commit with Clear Messages**
-   ```bash
-   git commit -m "feat: Add amazing new feature"
-   git commit -m "fix: Resolve currency conversion bug"
-   git commit -m "docs: Update README with examples"
-   ```
-
-6. **Push to Your Fork**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-
-7. **Open Pull Request**
-   - Provide clear description
-   - Reference related issues
-   - Include screenshots if UI changes
-
-### 🎯 Areas for Contribution
-
-```mermaid
-mindmap
-  root((Contribute))
-    🐛 Bug Fixes
-      Error handling
-      Edge cases
-      Performance issues
-    ✨ Features
-      New visualizations
-      Currency support
-      Model improvements
-    📚 Documentation
-      Code comments
-      API docs
-      Tutorials
-    🧪 Testing
-      Unit tests
-      Integration tests
-      E2E tests
-    🎨 UI/UX
-      Design improvements
-      Accessibility
-      Mobile support
-    🌐 i18n
-      Translations
-      Localization
-      Regional support
-```
-
-### 📝 Commit Convention
-
-| Type | Description | Example |
-|------|-------------|---------|
-| `feat` | New feature | `feat: Add USD currency support` |
-| `fix` | Bug fix | `fix: Correct CO₂ calculation` |
-| `docs` | Documentation | `docs: Add API examples` |
-| `style` | Code formatting | `style: Apply PEP 8` |
-| `refactor` | Code restructuring | `refactor: Optimize data pipeline` |
-| `test` | Adding tests | `test: Add model validation tests` |
-| `chore` | Maintenance | `chore: Update dependencies` |
-
----
-
-## 🧪 Testing
-
-### Run Unit Tests
-```bash
-python -m pytest tests/
-```
-
-### Test Coverage
-```bash
-python -m pytest --cov=app tests/
-```
-
-### Model Validation
-```bash
-python scripts/validate_models.py
-```
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2025 EVerGreen
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-[Full license text...]
-```
-
----
-
-## 🌟 Community Support
-
-<div align="center">
-
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/evergreen-ev-platform?style=for-the-badge&logo=github&color=yellow)](https://github.com/yourusername/evergreen-ev-platform/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/evergreen-ev-platform?style=for-the-badge&logo=github&color=blue)](https://github.com/yourusername/evergreen-ev-platform/network)
-[![GitHub watchers](https://img.shields.io/github/watchers/yourusername/evergreen-ev-platform?style=for-the-badge&logo=github&color=green)](https://github.com/yourusername/evergreen-ev-platform/watchers)
-
-### Every ⭐ Accelerates the EV Revolution
-
-**Your star helps us:**
-- 🌍 Reduce 1,000+ kg CO₂ annually per user
-- 📊 Train better prediction models
-- 🚀 Build features faster
-- 🌱 Promote sustainable transportation
-
-**Milestone Goals:**
-```
-🎯 10 Stars   → Beta Testing Phase
-🎯 50 Stars   → Feature Expansion  
-🎯 100 Stars  → REST API Development
-🎯 500 Stars  → Mobile App Launch
-```
-
-</div>
-
----
-
-## 👨‍💻 About Me
-
-### Project Creator & Maintainer
-
-I'm a **Machine Learning Engineer** and **Sustainability Advocate** passionate about leveraging AI to solve environmental challenges. This project combines my expertise in:
-
-- 🤖 **Machine Learning & AI**: Building production-grade ML models with 99%+ accuracy
-- 🌍 **Environmental Science**: Understanding carbon footprints and climate impact
-- 💻 **Full-Stack Development**: Creating intuitive, data-driven web applications
-- 📊 **Data Science**: Extracting actionable insights from complex datasets
-
-### 🎓 Technical Background
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  Expertise Areas                                            │
-├─────────────────────────────────────────────────────────────┤
-│  • Machine Learning (XGBoost, Scikit-learn, TensorFlow)    │
-│  • Web Development (Streamlit, Flask, FastAPI)             │
-│  • Data Analysis (Pandas, NumPy, Statistical Modeling)     │
-│  • Visualization (Plotly, Matplotlib, Seaborn)             │
-│  • MLOps & Deployment (Docker, Cloud Services, CI/CD)      │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### 🚀 Project Journey
-
-```mermaid
-graph LR
-    A[Idea: EV Analytics] --> B[Data Collection<br/>360 EVs]
-    B --> C[Feature Engineering<br/>Innovation Score]
-    C --> D[Model Development<br/>XGBoost + Linear]
-    D --> E[Hyperparameter Tuning<br/>99% Accuracy]
-    E --> F[Web Application<br/>Streamlit]
-    F --> G[Multi-Currency Support<br/>INR + EUR]
-    G --> H[Public Release<br/>v2.0]
-    
-    style A fill:#667eea
-    style D fill:#43cea2
-    style E fill:#f5576c
-    style H fill:#38ef7d
-```
-
-### 💡 Vision & Mission
-
-**Vision**: Accelerate global EV adoption through transparent, data-driven insights.
-
-**Mission**: Empower manufacturers, policymakers, and consumers with AI-powered tools to make informed decisions that reduce carbon emissions and promote sustainable transportation.
-
-### 🌱 Impact Goals
-
-| Metric | Target (2025) | Current | Status |
-|--------|---------------|---------|--------|
-| Users Reached | 10,000+ | Growing | 🟡 In Progress |
-| CO₂ Awareness (tons) | 1,000,000 | 50,000 | 🟢 On Track |
-| EVs Analyzed | 1,000+ | 360 | 🟡 Expanding |
-| Model Accuracy | 99.5%+ | 99.3% | 🟢 Achieved |
-
-### 📚 Research & Contributions
-
-This project is built on rigorous research and analysis:
-
-- ✅ **Data Sources**: Global EV specifications from 15+ manufacturers
-- ✅ **Validation**: 5-fold cross-validation with statistical significance testing
-- ✅ **Methodology**: Published correlation analysis and feature importance studies
-- ✅ **Open Source**: Fully transparent algorithms and reproducible results
-
-### 🤝 Collaboration
-
-I believe in **open collaboration** for sustainability. This project welcomes:
-
-- 🔬 Researchers studying EV technology and environmental impact
-- 👨‍💻 Developers interested in ML applications for sustainability
-- 🏭 Industry partners looking to integrate predictive analytics
-- 🎓 Students learning about machine learning and data science
-
-### 📫 Get In Touch
-
-- 💬 **GitHub Discussions**: [Join the conversation](https://github.com/yourusername/evergreen-ev-platform/discussions)
-- 🐛 **Issues**: [Report bugs or request features](https://github.com/yourusername/evergreen-ev-platform/issues)
-- 📧 **Email**: [your.email@example.com](mailto:your.email@example.com)
-- 💼 **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-
-### 🙏 Acknowledgments
-
-Special thanks to:
-
-- **UN SDG 13**: Inspiration for climate action through technology
-- **Open Source Community**: Scikit-learn, XGBoost, Streamlit, Plotly contributors
-- **EV Manufacturers**: For making specifications publicly available
-- **Research Institutions**: IPCC, IEA for climate and energy data
-
----
-
-## 📊 Project Statistics
-
-<div align="center">
-
-| Metric | Value |
-|--------|-------|
-| 📝 Lines of Code | ~1,200 |
-| 🤖 Models Trained | 2 (XGBoost + Linear) |
-| 🎯 Prediction Accuracy | 99.3% Average |
-| 🚗 Dataset Size | 360 EVs |
-| 💱 Currencies Supported | 2 (INR, EUR) |
-| 📊 Visualizations | 12+ Interactive |
-| ⚡ Prediction Time | <100ms |
-| 🌍 CO₂ Calculations | Real-time |
-
-</div>
-
----
-
-<div align="center">
-  
-### 🌿 Built with ❤️ for a Sustainable Future
-
-**EVerGreen** - Accelerating the transition to electric mobility through AI-powered intelligence
-
-[![Made with Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=for-the-badge)](https://www.python.org/)
-[![Powered by Streamlit](https://img.shields.io/badge/Powered%20by-Streamlit-FF4B4B.svg?style=for-the-badge)](https://streamlit.io/)
-[![Sustainability](https://img.shields.io/badge/Focus-Sustainability-green.svg?style=for-the-badge)](https://sdgs.un.org/goals/goal13)
-
----
-
-⭐ **Star us on GitHub** — it motivates us to build better tools!
-
-📢 **Share with your network** — help us promote EV adoption!
-
-🤝 **Contribute** — join us in building the future of sustainable transportation!
-
----
-
-© 2025 EVerGreen - EV Intelligence Platform | Version 2.0 | [Documentation](https://docs.evergreen-platform.com) | [Demo](https://evergreen-demo.streamlit.app)
-
-</div>
-  
-### 🌿 Built with ❤️ for a Sustainable Future
-
-**EVerGreen** - Accelerating the transition to electric mobility through AI-powered intelligence
-
-[![Made with Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=for-the-badge)](https://www.python.org/)
-[![Powered by Streamlit](https://img.shields.io/badge/Powered%20by-Streamlit-FF4B4B.svg?style=for-the-badge)](https://streamlit.io/)
-[![Sustainability](https://img.shields.io/badge/Focus-Sustainability-green.svg?style=for-the-badge)](https://sdgs.un.org/goals/goal13)
-
----
-
-⭐ **Star us on GitHub** — it motivates us to build better tools!
-
-📢 **Share with your network** — help us promote EV adoption!
-
-🤝 **Contribute** — join us in building the future of sustainable transportation!
-
----
-
-© 2025 EVerGreen - EV Intelligence Platform | Version 2.0 | [Documentation](https://docs.evergreen-platform.com) | [Demo](https://evergreen-demo.streamlit.app)
-
-</div>
+    H --> I[🎯 Tech Edge<br/>40%
