@@ -24,7 +24,7 @@
 
 <div align="center">
 
-**🌐 [Live Application →](https://evergreen-ev.streamlit.app/)**
+**🌐 [Live Application →](https://itsshraddha-evergreen-main-ycyzzg.streamlit.app/)**
 
 ```ascii
 ╔════════════════════════════════════════════════════════════════════════╗
@@ -1334,25 +1334,6 @@ git push origin feature/AmazingFeature
 
 ---
 
-## 📄 **License**
-
-This project is licensed under the **MIT License**.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
-```
-MIT License
-
-Copyright (c) 2025 EVerGreen
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software...
-```
-
----
 
 ## 👨‍💻 **About Me**
 
@@ -1393,13 +1374,6 @@ I'm passionate about leveraging AI to solve environmental challenges. This proje
 | CO₂ Awareness (tons) | 1,000,000 | 50,000 | 🟢 |
 | EVs Analyzed | 1,000+ | 360 | 🟡 |
 | Model Accuracy | 99.5%+ | 99.3% | 🟢 |
-
-### 📫 **Get In Touch**
-
-- 💬 **GitHub Discussions**: [Join the conversation](https://github.com/yourusername/evergreen-ev-platform/discussions)
-- 🐛 **Issues**: [Report bugs or request features](https://github.com/yourusername/evergreen-ev-platform/issues)
-- 📧 **Email**: [your.email@example.com](mailto:your.email@example.com)
-- 💼 **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
 
 ### 🙏 **Acknowledgments**
 
